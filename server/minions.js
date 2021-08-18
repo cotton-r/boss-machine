@@ -2,7 +2,6 @@ const minionsRouter = require('express').Router();
 
 module.exports = minionsRouter;
 
-const app = require('../server');
 const { 
   addToDatabase,
   getAllFromDatabase,

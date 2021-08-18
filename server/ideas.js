@@ -2,7 +2,6 @@ const ideasRouter = require('express').Router();
 
 module.exports = ideasRouter;
 
-const app = require('../server');
 const { 
   addToDatabase,
   getAllFromDatabase,
